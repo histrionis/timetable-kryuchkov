@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/DayListMonday"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewMonday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Понедельник"
+                    android:textColor="#FFFFFF" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/lessonsListMonday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DayListTuesday"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewTuesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Вторник"
+                    android:textColor="#FFFFFF" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/lessonsListTuesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DayListWednesday"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewWednesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Среда"
+                    android:textColor="#FFFFFF" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/lessonsListWednesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DayListThursday"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewThursday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Четверг"
+                    android:textColor="#FFFFFF" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/lessonsListThursday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DayListFriday"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewFriday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Пятница"
+                    android:textColor="#FFFFFF" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/lessonsListFriday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DayListSaturday"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewSaturday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Суббота"
+                    android:textColor="#FFFFFF" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/lessonsListSaturday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DayListSunday"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewSunday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Воскресенье"
+                    android:textColor="#FFFFFF" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/lessonsListSunday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
